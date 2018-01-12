@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Portafolio
+        link(rel ="stylesheet" href="./css/estilos.css")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    body    
+        .header#header
+            span.item-menu.fa.fa-bars#iconMenu
+            .header__menu#blockMenu              
+                span.fa.fa-window-close#closeMenu
+                a#homemen
+                    span.fa.fa-home
+                    | Home
+                a#aboutmen
+                    span.fa.fa-file-text-o
+                    | Sobre mí    
+                a#portfoliomen
+                    span.fa.fa-file-image-o
+                    | Portafolio    
+                a#contactmen
+                    span.fa.fa-envelope-o
+                    | Contacto
+            .header__description
+                h2 ISAEL
+                p Estudiante de programación
+            .header__social
+                    
+                    a(href="https://github.com/misaeldg"): span.fa.fa-github-square
+                    a(href="#"): span.fa.fa-google-plus-square
+        .main
+            .about#about
+                .about__content                    
+                    .about__content-text1
+                        
+                    .about__content-text2
+                        h2.about__content-text2__titulo SOBRE MÍ                    
+                        p.about-titDes NOMBRE
+                        p.about-Des 
+                            span.fa.fa-vcard-o
+                            | Misael Delgado Gastelú
+                        p.about-titDes EDAD
+                        p.about-Des 
+                            span.fa.fa-user-circle
+                            | 22
+                        p.about-titDes TELÉFONO
+                        p.about-Des 
+                            span.fa.fa-phone
+                            | 964 370 753
+                        p.about-titDes DIRECCIÓN
+                        p.about-Des 
+                            span.fa.fa-map-marker
+                            | VMT - Lima / Perú
+                        p.about-titDes EMAIL
+                        p.about-Des 
+                            span.fa.fa-envelope-o
+                            | mdelgadog.25@gmail.com
+            .portfolio#portfolio
+                .portfolio__content
+                    .portfolio__content-title
+                        h2 MI PORTAFOLIO
+                    .portfolio__content-gallery
+                        .portfolio-gallery__item
+                            .portfolio-gallery__1
+                                a(href="https://misaeldg.github.io/proyViaje/"): img(src="./images/page2-viajandooo.png")  
+                            .portfolio-gallery__2
+                                p.portfolio-gallery__tags
+                                    span.fa.fa-plane
+                                    span.fa.fa-money
+                                    span.fa.fa-shopping-bag 
+                                p.portfolio-gallery__title VIAJES ONLINE
+                                p.portfolio-gallery__desc Proyecto estudiantil
+                                p.portfolio-gallery__desc Se desarrolló una página web estática para la visualización de detalles de viajes turísticos.
+                                p.portfolio-gallery__desc Se utilizó Html5, Css3, JavaScript, JQuery.
+                        .portfolio-gallery__item
+                            .portfolio-gallery__1
+                                a(href="#"): img(src="./images/trabajoReact.png")  
+                            .portfolio-gallery__2
+                                p.portfolio-gallery__tags
+                                    span.fa.fa-calendar
+                                    span.fa.fa-check-square
+                                    span.fa.fa-pencil-square 
+                                p.portfolio-gallery__title APP DE TAREAS
+                                p.portfolio-gallery__desc Tecnologías usadas: React, Firebase, ES6
+                                p.portfolio-gallery__desc En proceso de remodelación ...
+                        
+        .footer#footer
+            .footer__content
+                .footer__content-cont1
+                    .foot-cont1__item.foot-cont1__social                        
+                        a(href="#"): span.fa.fa-facebook-official
+                        a(href="https://github.com/misaeldg"): span.fa.fa-github-square
+                        a(href="#"): span.fa.fa-google-plus-square
+                        p Social
+                    .foot-cont1__item.foot-cont1__contact
+                        span.fa.fa-phone-square
+                        p 964 370 753
+                    .foot-cont1__item.foot-cont1__contact
+                        span.fa.fa-envelope
+                        p mdelgadog.25@gmail.com
+                .footer__content-cont2
+                    p
+                        span.fa.fa-copyright
+                        | Misael Delgado Gastelú 
+    script(src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous")
+    script(src="./js/script.js")
