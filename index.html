@@ -1,1 +1,146 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><title>Portafolio</title><link rel="stylesheet" href="./css/estilos.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/></head><body>   <div class="header" id="header"><span class="item-menu fa fa-bars" id="iconMenu"></span><div class="header__menu" id="blockMenu">             <span class="fa fa-window-close" id="closeMenu"></span><a id="homemen"><span class="fa fa-home"></span>Home</a><a id="aboutmen"><span class="fa fa-file-text-o"></span>Sobre mí    </a><a id="portfoliomen"><span class="fa fa-file-image-o"></span>Portafolio    </a><a id="contactmen"><span class="fa fa-envelope-o"></span>Contacto</a></div><div class="header__description"><h2>ISAEL</h2><p>Estudiante de programación</p></div><div class="header__social"><a href="https://github.com/misaeldg"><span class="fa fa-github-square"></span></a><a href="#"><span class="fa fa-google-plus-square"></span></a></div></div><div class="main"><div class="about" id="about"><div class="about__content">                   <div class="about__content-text1"></div><div class="about__content-text2"><h2 class="about__content-text2__titulo">SOBRE MÍ                    </h2><p class="about-titDes">NOMBRE</p><p class="about-Des"> <span class="fa fa-vcard-o"></span>Misael Delgado Gastelú</p><p class="about-titDes">EDAD</p><p class="about-Des"> <span class="fa fa-user-circle"></span>24</p><p class="about-titDes">TELÉFONO</p><p class="about-Des"> <span class="fa fa-phone"></span>964 370 753</p><p class="about-titDes">DIRECCIÓN</p><p class="about-Des"> <span class="fa fa-map-marker"></span>VMT - Lima / Perú</p><p class="about-titDes">EMAIL</p><p class="about-Des"> <span class="fa fa-envelope-o"></span>mdelgadog.25@gmail.com</p></div></div></div><div class="portfolio" id="portfolio"><div class="portfolio__content"><div class="portfolio__content-title"><h2>MI PORTAFOLIO</h2></div><div class="portfolio__content-gallery"><div class="portfolio-gallery__item"><div class="portfolio-gallery__1"><a href="https://misaeldg.github.io/proyViaje/"><img src="./images/page2-viajandooo.png"/></a></div><div class="portfolio-gallery__2"><p class="portfolio-gallery__tags"><span class="fa fa-plane"></span><span class="fa fa-money"></span><span class="fa fa-shopping-bag"> </span></p><p class="portfolio-gallery__title">VIAJES ONLINE</p><p class="portfolio-gallery__desc">Proyecto estudiantil</p><p class="portfolio-gallery__desc">Se desarrolló una página web estática para la visualización de detalles de viajes turísticos.</p><p class="portfolio-gallery__desc">Se utilizó Html5, Css3, JavaScript, JQuery.</p></div></div><div class="portfolio-gallery__item"><div class="portfolio-gallery__1"><a href="#"><img src="./images/trabajoReact.png"/></a></div><div class="portfolio-gallery__2"><p class="portfolio-gallery__tags"><span class="fa fa-calendar"></span><span class="fa fa-check-square"></span><span class="fa fa-pencil-square"> </span></p><p class="portfolio-gallery__title">APP DE TAREAS</p><p class="portfolio-gallery__desc">Tecnologías usadas: React, Firebase, ES6</p><p class="portfolio-gallery__desc">En proceso de remodelación ...</p></div></div><div class="portfolio-gallery__item"><div class="portfolio-gallery__1"><a href="https://proyangular-8bf84.firebaseapp.com/"><img src="./images/fondoAngular.jpeg"/></a></div><div class="portfolio-gallery__2"><p class="portfolio-gallery__tags"><span class="fa fa-home"></span><span class="fa fa-check-square"></span><span class="fa fa-database"></span></p><p class="portfolio-gallery__title">DOMESTIC HOME</p><p class="portfolio-gallery__desc">Tecnologías usadas: Angular, Firebase, TypeScript</p><p class="portfolio-gallery__desc">Se utilizó Firebase como base de datos online además de poder realizar cambios de manera instantnea.</p><p class="portfolio-gallery__desc">Se usó Angular 4 como Framework Front-End para la renderización de componentes y agilizar la velocidad del sitio</p></div></div></div></div></div></div><div class="footer" id="footer"><div class="footer__content"><div class="footer__content-cont1"><div class="foot-cont1__item foot-cont1__social">                       <a href="#"><span class="fa fa-facebook-official"></span></a><a href="https://github.com/misaeldg"><span class="fa fa-github-square"></span></a><a href="#"><span class="fa fa-google-plus-square"></span></a><p>Social</p></div><div class="foot-cont1__item foot-cont1__contact"><span class="fa fa-phone-square"></span><p>964 370 753</p></div><div class="foot-cont1__item foot-cont1__contact"><span class="fa fa-envelope"></span><p>mdelgadog.25@gmail.com</p></div></div><div class="footer__content-cont2"><p><span class="fa fa-copyright"></span>Misael Delgado Gastelú </p></div></div></div></body><script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script><script src="./js/script.js"></script></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="header" id="header"><span class="item-menu fa fa-bars" id="iconMenu"></span>
+        <div class="header__menu" id="blockMenu"> <span class="fa fa-window-close" id="closeMenu"></span><a
+                id="homemen"><span class="fa fa-home"></span>Home</a><a id="aboutmen"><span
+                    class="fa fa-file-text-o"></span>Sobre mí </a><a id="portfoliomen"><span
+                    class="fa fa-file-image-o"></span>Portafolio </a><a id="contactmen"><span
+                    class="fa fa-envelope-o"></span>Contacto</a></div>
+        <div class="header__description">
+            <h2>ISAEL</h2>
+            <p>Profesional de Ingeniería de Sistemas</p>
+        </div>
+        <div class="header__social"><a href="https://github.com/misaeldg"><span
+                    class="fa fa-github-square"></span></a><a href="#"><span
+                    class="fa fa-google-plus-square"></span></a></div>
+    </div>
+    <div class="main">
+        <div class="about" id="about">
+            <div class="about__content">
+                <div class="about__content-text1"></div>
+                <div class="about__content-text2">
+                    <h2 class="about__content-text2__titulo">SOBRE MÍ </h2>
+                    <p class="about-titDes">NOMBRE</p>
+                    <p class="about-Des"> <span class="fa fa-vcard-o"></span>Misael Delgado Gastelú</p>
+                    <!-- <p class="about-titDes">EDAD</p>
+                    <p class="about-Des"> <span class="fa fa-user-circle"></span>24</p> -->
+                    <p class="about-titDes">TELÉFONO</p>
+                    <p class="about-Des"> <span class="fa fa-phone"></span>964 370 753</p>
+                    <p class="about-titDes">DIRECCIÓN</p>
+                    <p class="about-Des"> <span class="fa fa-map-marker"></span>Lima / Perú</p>
+                    <p class="about-titDes">EMAIL</p>
+                    <p class="about-Des"> <span class="fa fa-envelope-o"></span>mdelgadog.25@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <div class="portfolio__content">
+                <div class="portfolio__content-title">
+                    <h2>MI PORTAFOLIO</h2>
+                </div>
+                <div class="portfolio__content-gallery">
+                    <div class="portfolio-gallery__item">
+                        <div class="portfolio-gallery__1"><a href="https://misaeldg.github.io/proyViaje/"><img
+                                    src="./images/page2-viajandooo.png" /></a></div>
+                        <div class="portfolio-gallery__2">
+                            <p class="portfolio-gallery__tags"><span class="fa fa-plane"></span><span
+                                    class="fa fa-money"></span><span class="fa fa-shopping-bag"> </span></p>
+                            <p class="portfolio-gallery__title">VIAJES ONLINE</p>
+                            <p class="portfolio-gallery__desc">Proyecto estudiantil</p>
+                            <p class="portfolio-gallery__desc">Se desarrolló una página web estática para la
+                                visualización de detalles de viajes turísticos.</p>
+                            <p class="portfolio-gallery__desc">Se utilizó Html5, Css3, JavaScript, JQuery.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-gallery__item">
+                        <div class="portfolio-gallery__1"><a href="https://appsqlite-taskapp.herokuapp.com/"><img src="./images/portafolio_todoapp.JPG" /></a></div>
+                        <div class="portfolio-gallery__2">
+                            <p class="portfolio-gallery__tags"><span class="fa fa-list"></span><span
+                                    class="fa fa-check-square"></span><span class="fa fa-database"> </span></p>
+                            <p class="portfolio-gallery__title">APP DE TAREAS</p>
+                            <p class="portfolio-gallery__desc">Tecnologías usadas: Python, Database SQLite, Flask, SQLAlchemy, Heroku</p>
+                            <p class="portfolio-gallery__desc">Aplicación sencilla CRUD de aplicación de tareas usando el lenguaje de programación Python y el Framework Flask con SQLAlchemy y SQLite. La aplicación se desplegó utilizando Heroku</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-gallery__item">
+                        <div class="portfolio-gallery__1"><a href="https://proyangular-8bf84.firebaseapp.com/"><img
+                                    src="./images/fondoAngular.jpeg" /></a></div>
+                        <div class="portfolio-gallery__2">
+                            <p class="portfolio-gallery__tags"><span class="fa fa-home"></span><span
+                                    class="fa fa-check-square"></span><span class="fa fa-database"></span></p>
+                            <p class="portfolio-gallery__title">DOMESTIC HOME</p>
+                            <p class="portfolio-gallery__desc">Tecnologías usadas: Angular, Firebase, TypeScript</p>
+                            <p class="portfolio-gallery__desc">Se utilizó Firebase como base de datos online además de
+                                poder realizar cambios de manera instantnea.</p>
+                            <p class="portfolio-gallery__desc">Se usó Angular 4 como Framework Front-End para la
+                                renderización de componentes y agilizar la velocidad del sitio</p>
+                        </div>
+                    </div>
+                   
+                    <div class="portfolio-gallery__item">
+                        <div class="portfolio-gallery__1"><a href="https://code-python34.herokuapp.com/"><img
+                                    src="./images/appTodoList.JPG" /></a></div>
+                        <div class="portfolio-gallery__2">
+                            <p class="portfolio-gallery__tags"><span class="fa fa-list"></span><span
+                                    class="fa fa-check-square"></span><span class="fa fa-pencil-square"></span></p>
+                            <p class="portfolio-gallery__title">Aplicación sencilla Todo List</p>
+                            <p class="portfolio-gallery__desc">Tecnologías usadas: Flask, Python</p>
+                            <p class="portfolio-gallery__desc">Aplicación sencilla sin DB para agregar tareas</p>
+                            <p class="portfolio-gallery__desc">Se usó Python3 y el framework Flask como herramientas para el proyecto</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-gallery__item">
+                        <div class="portfolio-gallery__1"><a href="#"><img
+                                    src="./images/login_form.JPG" /></a></div>
+                        <div class="portfolio-gallery__2">
+                            <p class="portfolio-gallery__tags"><span class="fa fa-user"></span><span
+                                    class="fa fa-check-square"></span><span class="fa fa-database"></span></p>
+                            <p class="portfolio-gallery__title">LOGIN FORM SESSION</p>
+                            <p class="portfolio-gallery__desc">Tecnologías usadas: Flask, Python, SQLite, Heroku</p>
+                            <p class="portfolio-gallery__desc">Aplicación en mantenimiento</p>
+                            <p class="portfolio-gallery__desc">Se utilizó Flask para poder generar un simple Form de Login para simular el ingreso de sesión con Python</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="footer__content">
+            <div class="footer__content-cont1">
+                <div class="foot-cont1__item foot-cont1__social"> <a href="#"><span
+                            class="fa fa-facebook-official"></span></a><a href="https://github.com/misaeldg"><span
+                            class="fa fa-github-square"></span></a><a href="#"><span
+                            class="fa fa-google-plus-square"></span></a>
+                    <p>Social</p>
+                </div>
+                <div class="foot-cont1__item foot-cont1__contact"><span class="fa fa-phone-square"></span>
+                    <p>964 370 753</p>
+                </div>
+                <div class="foot-cont1__item foot-cont1__contact"><span class="fa fa-envelope"></span>
+                    <p>mdelgadog.25@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer__content-cont2">
+                <p><span class="fa fa-copyright"></span>Misael Delgado Gastelú </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+
+</html>
